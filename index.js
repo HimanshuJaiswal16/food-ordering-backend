@@ -4,6 +4,8 @@ const path = require('path');
 const fs = require('fs');
 const color = require('colors');
 
+require('dotenv').config();
+
 // Routes
 const authRoutes = require('./src/auth/authRoute');
 const plansRoute = require('./src/plans/planRoute');
